@@ -38,7 +38,7 @@ h3 {
 
 .section-pg {
   text-align: left;
-} 
+}
 
 /*Layout*/
 
@@ -125,11 +125,10 @@ nav a:focus {
   img {
     margin-left: 5em;
     width: 45%;
-  }  
+  }
 
   .section-pg {
     margin: 0;
     padding: 1.5em;
   }
-
 }
