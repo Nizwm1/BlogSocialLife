@@ -36,6 +36,10 @@ h3 {
   margin: 0;
 }
 
+.section-pg {
+  text-align: left;
+} 
+
 /*Layout*/
 
 .container {
@@ -99,14 +103,6 @@ nav a:focus {
   color: #1792d2;
 }
 
-.current-page {
-  border-bottom: 1px solid #707070;
-}
-
-.current-page:hover {
-  color: #707070;
-}
-
 /* Media Query*/
 
 @media screen and (min-width: 675px) {
@@ -127,8 +123,13 @@ nav a:focus {
   }
 
   img {
-    margin-left: 30em;
+    margin-left: 5em;
     width: 45%;
   }  
+
+  .section-pg {
+    margin: 0;
+    padding: 1.5em;
+  }
 
 }
