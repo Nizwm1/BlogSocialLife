@@ -38,6 +38,8 @@ h3 {
 
 .section-pg {
   text-align: left;
+  width: 100%;
+  margin: 1em auto;
 }
 
 /*Layout*/
@@ -128,7 +130,8 @@ nav a:focus {
   }
 
   .section-pg {
-    margin: 0;
     padding: 1.5em;
+    text-align: left;
+    width: 70%;
   }
 }
