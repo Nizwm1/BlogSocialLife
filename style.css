@@ -42,6 +42,11 @@ h3 {
   margin: 1em auto;
 }
 
+.footer-pg {
+  color: whitesmoke;
+  width: 100%;
+}
+
 /*Layout*/
 
 .container {
@@ -120,19 +125,24 @@ nav a:focus {
     margin-left: 2em;
   }
 
-  h3 {
-    margin: 0 auto;
-  }
-
   img {
     margin-left: 5em;
     width: 45%;
     height: 40%;
   }
 
+  .section {
+    margin: 0 auto;
+  }
+
   .section-pg {
     padding: 1.5em;
-    text-align: left;
     width: 70%;
+  }
+
+  .footer-pg {
+    padding: 1.4em;
+    width: 70%;
+    margin: 0;
   }
 }
